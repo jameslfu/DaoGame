@@ -68,8 +68,10 @@ public class Board {
 
 	public boolean isLine() {
 		for (int i = 0; i < EDGE_LENGTH; i++) {
-			for (j = 0; j < EDGE_LENGTH; j++) {
-
+			int j = grid[i][0];
+			while (j != 0) {
+				if (grid[i][)
+			}
 			}
 		}
 	}
